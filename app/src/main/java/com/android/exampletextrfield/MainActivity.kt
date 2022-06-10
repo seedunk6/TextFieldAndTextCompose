@@ -46,9 +46,9 @@ fun ChangeTextField() {
             modifier = Modifier.padding(20.dp)
         )
         Text(
-            text = text.value,
-            modifier = Modifier.padding(40.dp),
-            fontStyle = FontStyle( value = 1)
+            text = "TextEnter: " + text.value,
+            modifier = Modifier.padding(30.dp),
+            fontStyle = FontStyle( value = 2)
         )
     }
 }
